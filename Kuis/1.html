@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <style type="text/css">
+        body {
+            background-color: #f4f7f6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            color: #333;
+        }
+
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 3px solid #3498db;
+            display: inline-block;
+            padding-bottom: 10px;
+            width: 100%;
+        }
+
+
+        form {
+            background-color: #ffffff;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border-top: 10px solid #3498db;
+        }
+
+
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+        }
+
+
+        td {
+            padding: 10px 5px;
+            vertical-align: middle;
+        }
+
+
+
+        input[type="file"] {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            transition: all 0.3s ease;
+            border: 2px dotted #000000;
+        }
+
+        input[type="text"]:focus,
+        input[type="number"]:focus {
+            border-color: #3498db;
+            box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
+            outline: none;
+        }
+
+
+        input[type="submit"] {
+            background-color: #86efac;
+            color: black;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            width: 100%;
+            transition: background 0.3s;
+            -webkit-box-shadow: 3px 3px 0px 1px #000000;
+            box-shadow: 3px 3px 0px 1px #000000;
+        }
+
+        reset {
+            background-color: #fca5a5;
+            color: black;
+        }
+
+        table:not(:first-of-type) {
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+        }
+
+        fieldset {
+            border: 2px dotted #000000;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css_gambar.css">
+</head>
+
+<body>
+    <form action="ok.html">
+        <h1>Registrasi Pendaftaran Tournament</h1><br>
+        <table>
+            <video width="300" height="180" poster="Gambar1.jpg" controls>
+                <source src="video1.mp4" type="video/mp4">
+            </video>
+
+            <audio controls>
+                <source src="lagu1.mp3" type="audio/mp3">
+            </audio>
+
+            <div class="img">
+                <img src="gambar1.webp" alt="gambar" width="110" height="90">
+                <div class="desc">Deskripsi Gambar 1</div>
+            </div>
+            <div class="img">
+                <img src="gambar2.jfif" alt="gambar" width="110" height="90">
+                <div class="desc">Deskripsi gambar 2</div>
+            </div>
+            <div class="img">
+                <img src="gambar3.jfif" alt="gambar" width="110" height="90">
+                <div class="desc">Deskripsi gambar 2</div>
+            </div>
+
+            <td>
+                <br>
+
+                <b>Nama Lengkap :</b>
+                
+                <b>Email aktif :</b>
+                
+                <b>Password :</b>
+                
+                <b>Umur :</b>
+                <td>
+                <input type="date" name="tglLahir">
+                </td>
+                
+                <b>Nama Lengkap :</b>
+                
+     <input type="number" name="nomor" min="1" max="5">
+                <br>
+            </td>
+            <td>
+                <input type="color" name="favcolor"><br>
+            
+<p>
+
+</p>
+            <b>Tingkat semangat (1-100) :</b>
+            
+                
+
+                <input type="range" name="points" min="1" max="10"> <br>
+            </td>
+            <tr>
+
+                <br>
+                Jenis kelamin : <br>
+                <INPUT TYPE="RADIO" NAME="jur" VALUE="TI">laki-laki<br>
+                <INPUT TYPE="RADIO" NAME="jur" VALUE="TI">perempuan<br>
+
+                     <br>
+                Skill yang di pelajari : <br>
+                <INPUT TYPE="RADIO" NAME="jur" VALUE="TI">Html &css
+                <INPUT TYPE="RADIO" NAME="jur" VALUE="TI">Java script dasar
+                     <INPUT TYPE="RADIO" NAME="jur" VALUE="TI">UI/UX Design
+              
+                <td>
+                    <b>upload bukti mahasiswa (file) :</b>
+                </td>
+
+            </tr>
+            <td><input type="file" name="buktissig"></td>
+        </table>
+
+
+        <input type="submit" value="GASS DAFTAR SEKARANG!">
+        <br>
+        <br>
+        <input type="submit" value="RESET FORM">
+    </form>
+</body>
+
+</html>

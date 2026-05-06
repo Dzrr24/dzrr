@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if Else</title>
+</head>
+<body>
+    <button onclick="cekNilai()">cek nilai</button>
+    <p id="hasil"></p>
+    <script>
+       function cekNilai(){
+        let nilai = 75;
+        let status;
+
+        if (nilai > 75){
+                status = "Lulus"
+        }else{
+            status = "Tidak lulus";
+        }
+        document.getElementById("hasil").innerHTML = status;
+       }
+    </script>
+</body>
+</html>

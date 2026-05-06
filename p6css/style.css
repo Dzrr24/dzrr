@@ -1,0 +1,17 @@
+ body {
+     background-color: bisque;
+     font-family: monospace;
+     color: black;
+ }
+
+ fieldset {
+     background-color: aliceblue;
+ }
+
+ #login {
+     border-radius: 10px;
+ }
+
+ .table {
+     border-color: brown;
+ }
